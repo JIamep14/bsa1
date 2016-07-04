@@ -1,10 +1,4 @@
 <?php declare(strict_types = 1);
-/**
- * Created by PhpStorm.
- * User: admin
- * Date: 04.07.2016
- * Time: 16:33
- */
 
 namespace bsa1;
 require_once __DIR__ .'/../vendor/autoload.php';
