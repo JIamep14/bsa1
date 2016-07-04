@@ -7,7 +7,7 @@ class Multiply implements Operation
 {
     public function evaluate($operands) : int
     {
-        if(array_search($operands, [0])) return 0; 
+        if(in_array(0, $operands)) return 0;
         $res = 1;
         for ($i = 0;$i < count($operands);$i++)
             $res*= $operands[$i];
