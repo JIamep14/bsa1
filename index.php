@@ -6,19 +6,19 @@ try
 {
     $obj = new calculator();
 
-//    $obj->setOptions(new Add());
-//    $obj->setOptions(new Add(),'a');
-//    $obj->setOptions(new Add(), 1);
-//    $obj->setOptions(new Add(), 1, 2);
-//    $obj->setOptions(new Add(), 1.4, 2);
-//    $obj->setOptions(new Add(), 1, 3, 4);
-//    $obj->setOptions(new Divide(), 1, 3, 4);
-//    $obj->setOptions(new Divide(), 6, 3);
-//    $obj->setOptions(new Divide(), 'a');
-//    $obj->setOptions(new Divide());
-//    $obj->setOptions(new Exponentiation(), 'a');
-//    $obj->setOptions(new Exponentiation(), 1, 3);
-    $obj->setOptions(new Exponentiation(), 16);
+//    $obj->setOptions(new Add()); // exception
+//    $obj->setOptions(new Add(),'a'); // exception
+//    $obj->setOptions(new Add(), 1); // exception
+//    $obj->setOptions(new Add(), 1, 2); // 3
+//    $obj->setOptions(new Add(), 1.4, 2); // exception
+//    $obj->setOptions(new Add(), 1, 3, 4); // 8
+//    $obj->setOptions(new Divide(), 1, 3, 4); // 0
+//    $obj->setOptions(new Divide(), 6, 3); // 2
+//    $obj->setOptions(new Divide(), 'a'); // exception
+//    $obj->setOptions(new Divide()); // exception
+//    $obj->setOptions(new Exponentiation(), 'a'); // exception
+//    $obj->setOptions(new Exponentiation(), 1, 3); // exception
+    $obj->setOptions(new Exponentiation(), 16); // 65536
 
     echo $obj->calculate();
 
