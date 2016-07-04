@@ -1,0 +1,11 @@
+{
+    "name": "admin/www",
+
+    "require": {
+        "php": ">7.0"
+    },
+
+    "autoload": {
+        "psr-4": {"bsa1\\":"src/"}
+    }
+}
