@@ -10,6 +10,7 @@ try
 //    $obj->setOptions(new Add(),'a');
 //    $obj->setOptions(new Add(), 1);
 //    $obj->setOptions(new Add(), 1, 2);
+//    $obj->setOptions(new Add(), 1.4, 2);
 //    $obj->setOptions(new Add(), 1, 3, 4);
 //    $obj->setOptions(new Divide(), 1, 3, 4);
 //    $obj->setOptions(new Divide(), 6, 3);
